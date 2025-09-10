@@ -1,0 +1,26 @@
+# Node / web
+web/node_modules/
+web/dist/
+web/.vite/
+web/.DS_Store
+
+# Python / api
+api/__pycache__/
+api/**/*.pyc
+api/.venv/
+
+# Env/секреты
+.env
+*.env
+api/.env
+web/.env
+
+# Данные/артефакты
+data/
+minio/
+postgres/
+*.log
+
+# IDE
+.vscode/
+.idea/
